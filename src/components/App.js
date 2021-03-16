@@ -13,16 +13,16 @@ const App = () => {
     //When the component mounts, start the timer and re-render everytime remainingTime updates 
     //useEffect hooks second argument - [] means useEffect invoked once, [state] means useEffect invoked once and everytime the state changes, nothing means useEffect invoked after every re-render
     useEffect(() => {
-        const timeoutId = setTimeout(() => {
+        const intervalId = setInterval(() => {
             if (remainingTime > 0) {
                 setRemainingTime(remainingTime - 1)
             } 
         }, 1000);
         //this cleanup function is stored when the component first renders
-        // then as the component is re-rendered, the cleanup function is then invoked, removing the timer 
-        // the first argument is then invoked, calling the timeout again
+        // then as the component is re-rendered, the cleanup function is then invoked, removing the interval
+        // the first argument is then invoked, setting the interval again
         return () => {
-            clearTimeout(timeoutId)
+            clearTimeout(intervalId)
         }
         }, [remainingTime])
 
