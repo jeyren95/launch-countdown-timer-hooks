@@ -1,0 +1,42 @@
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(#191a24, #343650)
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.countdown-timer {
+    background-image: url("../images/bg-stars.svg");
+    padding: 9% 20%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .countdown-timer {
+        padding: 38% 5%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .countdown-timer {
+        padding: 35% 5%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .countdown-timer {
+        padding: 7% 10%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .countdown-timer {
+        padding: 14% 12%;
+    }
+}
+
+
+

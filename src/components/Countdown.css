@@ -1,0 +1,68 @@
+.countdown {
+    padding: 0 5%;
+}
+
+.countdown .timer {
+    background-color:#343650;
+    padding: 10% 0;
+    border-radius: 10px;
+    margin-bottom: 12%;
+}
+
+.countdown h1 {
+    color: #fb6087;
+    font-size: 90px;
+}
+
+.countdown h4 {
+    color: #8486a9;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .countdown {
+        padding: 0 2%;
+    }
+    .countdown .timer {
+        padding: 13% 0;
+    }
+    .countdown h1 {
+        font-size: 38px;
+    }
+    .countdown h4 {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .countdown .timer {
+        margin-bottom: 15%;
+    }
+    .countdown h1 {
+        font-size: 65px;
+    }
+    .countdown h4 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .countdown h1 {
+        font-size: 42px;
+    }
+    .countdown h4 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .countdown h1 {
+        font-size: 75px;
+    }
+    .countdown h4 {
+        font-size: 16px;
+    }
+}

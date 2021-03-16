@@ -1,0 +1,43 @@
+.title {
+    margin: 3% 0 7%;
+    color: white;
+}
+
+.title h1 {
+    letter-spacing: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title {
+        margin: 3% 0 18%;
+    }
+    .title h1 {
+        font-size: 22px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .title h1 {
+        font-size: 30px;
+    }
+    .title {
+        margin: 3% 0 9%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .title h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .title {
+        margin: 3% 0 8%;
+    }
+    .title h1 {
+        font-size: 34px;
+    }
+}

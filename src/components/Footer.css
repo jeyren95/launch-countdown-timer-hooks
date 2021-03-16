@@ -1,0 +1,56 @@
+.footer {
+    background-image: url("../images/pattern-hills.svg");
+    background-size: cover;
+    height: 30vh;
+}
+
+.footer .icons {
+    padding: 5% 0;
+}
+
+.icons i {
+    margin: 0 1%;
+    color: #8486a9;
+}
+
+.icons i:hover {
+    color: #fb6087;
+}
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer .icons {
+        padding: 20% 0;
+    }
+    .icons i {
+        margin: 0 4%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .footer .icons {
+        padding: 12% 0;
+    }
+    .icons i {
+        margin: 0 3%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    .footer .icons {
+        padding: 6% 0;
+    }
+    .icons i {
+        margin: 0 2%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer .icons {
+        padding: 10% 0;
+    }
+    .icons i {
+        margin: 0 2%;
+    }
+}
